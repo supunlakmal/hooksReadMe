@@ -6,7 +6,7 @@ Tracks the user's current geographic location using the browser's Geolocation AP
 
 ```typescript
 import React from "react";
-import { useGeolocation } from "@supun156/hooks"; // Adjust the import path as needed
+import { useGeolocation } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function GeolocationInfo() {
   const {

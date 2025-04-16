@@ -6,7 +6,7 @@ Monitors user activity within the browser window and triggers callbacks when the
 
 ```typescript
 import React, { useState } from "react";
-import { useIdleTimer } from "@supun156/hooks"; // Adjust the import path as needed
+import { useIdleTimer } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function IdleTimeoutComponent() {
   const [status, setStatus] = useState("Active");

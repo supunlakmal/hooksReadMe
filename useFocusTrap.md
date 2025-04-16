@@ -8,7 +8,7 @@ Provide a ref to the container element that should trap focus, a boolean state i
 
 ```typescript
 import React, { useState, useRef } from "react";
-import { useFocusTrap } from "@supun156/hooks"; // Adjust path
+import { useFocusTrap } from "supunlakmal/hooks"; // Adjust path
 
 function Modal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   const modalRef = useRef<HTMLDivElement>(null);

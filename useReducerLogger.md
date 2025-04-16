@@ -11,7 +11,7 @@ Use it as a drop-in replacement for `useReducer`. Pass your reducer, initial sta
 ```typescript
 import React from "react";
 // Import useReducerLogger instead of useReducer
-import { useReducerLogger } from "@supun156/hooks"; // Adjust path
+import { useReducerLogger } from "supunlakmal/hooks"; // Adjust path
 
 // Example State and Actions
 interface CounterState {

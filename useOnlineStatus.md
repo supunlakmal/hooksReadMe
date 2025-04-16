@@ -8,7 +8,7 @@ Tracks the browser's online/offline connection status.
 
 ```typescript
 import React from "react";
-import { useOnlineStatus } from "@supun156/hooks"; // Adjust path
+import { useOnlineStatus } from "supunlakmal/hooks"; // Adjust path
 
 function OnlineStatusIndicator() {
   const isOnline = useOnlineStatus();

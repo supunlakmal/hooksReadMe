@@ -8,7 +8,7 @@ A hook that behaves like `useState` but persists the state in the browser's `ses
 
 ```typescript
 import React from "react";
-import { useSessionStorage } from "@supun156/hooks"; // Adjust path
+import { useSessionStorage } from "supunlakmal/hooks"; // Adjust path
 
 function SessionCounter() {
   // State will be persisted in sessionStorage under the key 'session-count'

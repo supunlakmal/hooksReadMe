@@ -14,7 +14,7 @@ Call the hook to get the current motion state. Remember to handle permissions se
 
 ```typescript
 import React from "react";
-import { useDeviceMotion } from "@supun156/hooks"; // Adjust path
+import { useDeviceMotion } from "supunlakmal/hooks"; // Adjust path
 
 function DeviceMotionExample() {
   const {

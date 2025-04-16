@@ -20,7 +20,7 @@ The hook returns the key of the largest matching breakpoint (e.g., 'lg'). If the
 
 ```typescript
 import React from "react";
-import { useBreakpoint } from "@supun156/hooks"; // Adjust path
+import { useBreakpoint } from "supunlakmal/hooks"; // Adjust path
 
 function ResponsiveComponent() {
   const activeBreakpoint = useBreakpoint();
@@ -64,7 +64,7 @@ export default ResponsiveComponent;
 
 ```typescript
 import React from "react";
-import { useBreakpoint } from "@supun156/hooks"; // Adjust path
+import { useBreakpoint } from "supunlakmal/hooks"; // Adjust path
 
 const myBreakpoints = {
   mobile: "(max-width: 599px)", // Example using max-width

@@ -8,7 +8,7 @@ Provides functionality to interact with the system clipboard using the modern as
 
 ```typescript
 import React, { useState } from "react";
-import { useClipboard } from "@supun156/hooks"; // Adjust path
+import { useClipboard } from "supunlakmal/hooks"; // Adjust path
 
 function ClipboardManager() {
   const { value, error, copy, paste } = useClipboard();

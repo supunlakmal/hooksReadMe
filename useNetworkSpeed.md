@@ -17,7 +17,7 @@ Call the hook to get the current network state. The hook will update the state i
 
 ```typescript
 import React from "react";
-import { useNetworkSpeed } from "@supun156/hooks"; // Adjust path
+import { useNetworkSpeed } from "supunlakmal/hooks"; // Adjust path
 
 function NetworkInfoDisplay() {
   const networkState = useNetworkSpeed();

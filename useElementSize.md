@@ -10,7 +10,7 @@ Efficiently tracks the dimensions (content width and height) of a specified DOM 
 
 ```typescript
 import React from "react";
-import { useElementSize } from "@supun156/hooks"; // Adjust path
+import { useElementSize } from "supunlakmal/hooks"; // Adjust path
 
 function MeasuredComponent() {
   // Get the callback ref and the size state from the hook

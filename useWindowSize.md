@@ -6,7 +6,7 @@ A simple React hook that returns the current dimensions (width and height) of th
 
 ```typescript
 import React from "react";
-import { useWindowSize } from "@supun156/hooks"; // Adjust the import path as needed
+import { useWindowSize } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function ResponsiveComponent() {
   const { width, height } = useWindowSize();

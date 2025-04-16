@@ -6,7 +6,7 @@ A reusable hook for managing form state, handling input changes, and processing 
 
 ```typescript
 import React from "react";
-import { useForm } from "@supun156/hooks"; // Adjust the import path as needed
+import { useForm } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 interface MyFormData {
   name: string;

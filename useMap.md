@@ -8,7 +8,7 @@ Provide an optional initial `Map` or an iterable (like an array of `[key, value]
 
 ```typescript
 import React, { useState } from "react";
-import { useMap } from "@supun156/hooks"; // Adjust path
+import { useMap } from "supunlakmal/hooks"; // Adjust path
 
 function MapStateExample() {
   // Initialize with some default entries

@@ -8,7 +8,7 @@ A hook to simplify handling asynchronous operations (like API calls) in React co
 
 ```typescript
 import React from "react";
-import { useAsync } from "@supun156/hooks"; // Adjust the import path as needed
+import { useAsync } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 interface UserData {
   id: number;
@@ -57,7 +57,7 @@ Set the second argument `immediate` to `false` to prevent execution on mount. Us
 
 ```typescript
 import React from "react";
-import { useAsync } from "@supun156/hooks"; // Adjust the import path as needed
+import { useAsync } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 const simulateSlowTask = (): Promise<string> => {
   return new Promise((resolve) => {

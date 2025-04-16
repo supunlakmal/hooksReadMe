@@ -6,7 +6,7 @@ Debounces a value. This hook is useful when you want to delay the execution of a
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useDebounce } from "@supun156/hooks";
+import { useDebounce } from "supunlakmal/hooks";
 
 function SearchComponent() {
   const [searchTerm, setSearchTerm] = useState("");

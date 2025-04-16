@@ -12,7 +12,7 @@ Provide a `PermissionDescriptor` object (usually just `{ name: 'permission-name'
 
 ```typescript
 import React from "react";
-import { usePermission } from "@supun156/hooks"; // Adjust path
+import { usePermission } from "supunlakmal/hooks"; // Adjust path
 
 function PermissionStatus({
   permissionName,

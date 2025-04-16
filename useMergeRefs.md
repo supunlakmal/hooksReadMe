@@ -8,7 +8,7 @@ Pass all the refs you want to merge as arguments to the `useMergeRefs` hook. It 
 
 ```typescript
 import React, { useRef, useEffect, forwardRef } from "react";
-import { useMergeRefs } from "@supun156/hooks"; // Adjust path
+import { useMergeRefs } from "supunlakmal/hooks"; // Adjust path
 
 // Example component that uses an internal ref and forwards one
 const FancyInput = forwardRef<HTMLInputElement, { label: string }>(

@@ -6,7 +6,7 @@ Tracks the state of a CSS media query, returning `true` if the query currently m
 
 ```typescript
 import React from "react";
-import { useMediaQuery } from "@supun156/hooks"; // Adjust the import path as needed
+import { useMediaQuery } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function ResponsiveLayout() {
   const isSmallScreen = useMediaQuery("(max-width: 768px)");

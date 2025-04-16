@@ -6,7 +6,7 @@ Tracks the previous value of a given state or prop from the last render.
 
 ```typescript
 import React, { useState } from "react";
-import { usePrevious } from "@supun156/hooks"; // Adjust the import path as needed
+import { usePrevious } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function CounterWithPrevious() {
   const [count, setCount] = useState(0);

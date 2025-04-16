@@ -6,7 +6,7 @@ Manages pagination logic for client-side data sets (e.g., arrays displayed in ta
 
 ```typescript
 import React from "react";
-import { usePagination } from "@supun156/hooks"; // Adjust path
+import { usePagination } from "supunlakmal/hooks"; // Adjust path
 
 // Sample data (replace with your actual data)
 const ALL_ITEMS = Array.from({ length: 100 }, (_, i) => ({

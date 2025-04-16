@@ -6,7 +6,7 @@ Detects whether a specific key on the keyboard is currently being pressed down. 
 
 ```typescript
 import React from "react";
-import { useKeyPress } from "@supun156/hooks"; // Adjust the import path as needed
+import { useKeyPress } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function KeyPressDemo() {
   const isAPressed = useKeyPress("a");

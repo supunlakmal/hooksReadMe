@@ -10,7 +10,7 @@ Synchronizes a React state variable with a URL query parameter. It reads the ini
 
 ```typescript
 import React from "react";
-import { useQueryParam } from "@supun156/hooks"; // Adjust path
+import { useQueryParam } from "supunlakmal/hooks"; // Adjust path
 
 function SearchFilter() {
   // Synchronize the 'searchTerm' state with the ?search=... query parameter

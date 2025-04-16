@@ -8,7 +8,7 @@ Call the hook to get the `scrollToTop` function. You can then attach this functi
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useScrollToTop } from "@supun156/hooks"; // Adjust path
+import { useScrollToTop } from "supunlakmal/hooks"; // Adjust path
 import { useScrollPosition } from "./useScrollPosition"; // Assuming you have this hook
 
 function ScrollToTopButton() {

@@ -6,7 +6,7 @@ A custom React hook for fetching data from an API endpoint. It simplifies data f
 
 ```typescript
 import React from "react";
-import { useFetch } from "@supun156/hooks"; // Adjust the import path as needed
+import { useFetch } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 interface Post {
   userId: number;
@@ -54,7 +54,7 @@ export default PostsComponent;
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useFetch } from "@supun156/hooks"; // Adjust the import path as needed
+import { useFetch } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 interface NewPost {
   title: string;

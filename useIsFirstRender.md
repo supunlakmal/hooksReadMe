@@ -6,7 +6,7 @@ A React hook that returns `true` if the component is rendering for the first tim
 
 ```jsx
 import React from "react";
-import { useIsFirstRender } from "@supun156/hooks"; // Adjust the import path if necessary
+import { useIsFirstRender } from "supunlakmal/hooks"; // Adjust the import path if necessary
 
 function MyComponent() {
   const isFirstRender = useIsFirstRender();

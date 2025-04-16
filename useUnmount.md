@@ -8,7 +8,7 @@ Provide a function to the `useUnmount` hook. This function will be called exactl
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useUnmount } from "@supun156/hooks"; // Adjust path
+import { useUnmount } from "supunlakmal/hooks"; // Adjust path
 
 const ChildComponent = () => {
   useUnmount(() => {

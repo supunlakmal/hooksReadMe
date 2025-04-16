@@ -6,7 +6,7 @@ Throttles a value, ensuring that updates to the value do not occur more frequent
 
 ```typescript
 "use client";
-import { useThrottle } from "@supun156/hooks"; // Assuming this hook is correctly installed/imported
+import { useThrottle } from "supunlakmal/hooks"; // Assuming this hook is correctly installed/imported
 import React, { useState, useEffect } from "react";
 
 function ThrottledComponent() {

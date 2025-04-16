@@ -7,7 +7,7 @@ It uses the modern asynchronous Clipboard API (`navigator.clipboard.writeText`) 
 
 ```typescript
 import React, { useState } from "react";
-import { useCopyToClipboard } from "@supun156/hooks"; // Adjust the import path as needed
+import { useCopyToClipboard } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function ClipboardExample() {
   const [textToCopy, setTextToCopy] = useState("Hello from the hook!");

@@ -8,7 +8,7 @@ Pass a ref attached to the target element to the hook. It returns an object cont
 
 ```typescript
 import React, { useRef } from "react";
-import { useFullscreen } from "@supun156/hooks"; // Adjust path
+import { useFullscreen } from "supunlakmal/hooks"; // Adjust path
 
 function FullscreenExample() {
   const targetRef = useRef<HTMLDivElement>(null);

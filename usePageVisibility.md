@@ -10,7 +10,7 @@ Call the hook to get a boolean state indicating whether the page is currently vi
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { usePageVisibility } from "@supun156/hooks"; // Adjust path
+import { usePageVisibility } from "supunlakmal/hooks"; // Adjust path
 
 function PageVisibilityExample() {
   const isVisible = usePageVisibility();

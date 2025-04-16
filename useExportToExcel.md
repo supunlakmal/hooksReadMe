@@ -4,12 +4,12 @@ A React hook that simplifies exporting data to Excel files with automatically ad
 
 ## Installation
 
-This hook is included in the `@supun156/hooks` package:
+This hook is included in the `supunlakmal/hooks` package:
 
 ```bash
-npm install @supun156/hooks
+npm install supunlakmal/hooks
 # or
-yarn add @supun156/hooks
+yarn add supunlakmal/hooks
 ```
 
 ### Dependencies
@@ -26,7 +26,7 @@ yarn add xlsx
 
 ```jsx
 import React from "react";
-import { useExportToExcel } from "@supun156/hooks";
+import { useExportToExcel } from "supunlakmal/hooks";
 
 function ExportButton() {
   const exportToExcel = useExportToExcel();
@@ -90,7 +90,7 @@ The hook returns a function with the following signature:
 
 ```jsx
 import React, { useState, useEffect } from "react";
-import { useExportToExcel } from "@supun156/hooks";
+import { useExportToExcel } from "supunlakmal/hooks";
 
 function DataTable() {
   const [users, setUsers] = useState([]);

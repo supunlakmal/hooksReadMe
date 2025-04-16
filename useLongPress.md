@@ -8,7 +8,7 @@ Attach a ref to the element you want to monitor and pass the ref along with a ca
 
 ```typescript
 import React, { useRef } from "react";
-import { useLongPress } from "@supun156/hooks"; // Adjust path
+import { useLongPress } from "supunlakmal/hooks"; // Adjust path
 
 function LongPressButton() {
   const buttonRef = useRef<HTMLButtonElement>(null);

@@ -8,7 +8,7 @@ The hook returns a `Portal` component. Render this component and pass the conten
 
 ```typescript
 import React, { useState } from "react";
-import { usePortal } from "@supun156/hooks"; // Adjust path
+import { usePortal } from "supunlakmal/hooks"; // Adjust path
 
 function ModalContent({ onClose }: { onClose: () => void }) {
   // Example modal styling

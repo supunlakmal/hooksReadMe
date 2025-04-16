@@ -11,7 +11,7 @@ Includes an optional throttle to limit the frequency of updates during rapid scr
 
 ```typescript
 import React from "react";
-import { useScrollPosition } from "@supun156/hooks"; // Adjust path
+import { useScrollPosition } from "supunlakmal/hooks"; // Adjust path
 
 function WindowScrollReporter() {
   const { x, y } = useScrollPosition(); // Defaults to window, throttle 100ms
@@ -52,7 +52,7 @@ export default WindowScrollReporter;
 
 ```typescript
 import React, { useRef } from "react";
-import { useScrollPosition } from "@supun156/hooks"; // Adjust path
+import { useScrollPosition } from "supunlakmal/hooks"; // Adjust path
 
 function ElementScrollReporter() {
   const scrollableRef = useRef<HTMLDivElement>(null);

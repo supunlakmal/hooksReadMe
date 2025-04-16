@@ -6,7 +6,7 @@ Tracks whether the mouse pointer is currently hovering over a specific DOM eleme
 
 ```typescript
 import React from "react";
-import { useHover } from "@supun156/hooks"; // Adjust the import path as needed
+import { useHover } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function HoverableBox() {
   const [hoverRef, isHovered] = useHover<HTMLDivElement>(); // Specify element type if needed

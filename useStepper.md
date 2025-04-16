@@ -6,7 +6,7 @@ Manages the state and navigation logic for multi-step processes like wizards, fo
 
 ```typescript
 import React from "react";
-import { useStepper } from "@supun156/hooks"; // Adjust path
+import { useStepper } from "supunlakmal/hooks"; // Adjust path
 
 // Example Step Components (replace with your actual step content)
 const Step1 = () => <div>Content for Step 1</div>;

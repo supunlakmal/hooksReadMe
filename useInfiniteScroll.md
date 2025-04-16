@@ -8,7 +8,7 @@ Facilitates the implementation of infinite scrolling by using the `IntersectionO
 
 ```typescript
 import React, { useState, useEffect, useCallback } from "react";
-import { useInfiniteScroll } from "@supun156/hooks"; // Adjust path
+import { useInfiniteScroll } from "supunlakmal/hooks"; // Adjust path
 
 interface Item {
   id: number;

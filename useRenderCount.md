@@ -6,7 +6,7 @@ Tracks the number of times a component has rendered. Useful for debugging perfor
 
 ```typescript
 import React, { useState } from "react";
-import { useRenderCount } from "@supun156/hooks"; // Adjust path
+import { useRenderCount } from "supunlakmal/hooks"; // Adjust path
 
 function RenderCounterComponent() {
   const [value, setValue] = useState("");

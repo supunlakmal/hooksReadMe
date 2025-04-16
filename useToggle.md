@@ -4,18 +4,18 @@ A React hook that provides a simple way to manage boolean state with toggle func
 
 ## Installation
 
-This hook is included in the `@supun156/hooks` package:
+This hook is included in the `supunlakmal/hooks` package:
 
 ```bash
-npm install @supun156/hooks
+npm install supunlakmal/hooks
 # or
-yarn add @supun156/hooks
+yarn add supunlakmal/hooks
 ```
 
 ## Usage
 
 ```jsx
-import { useToggle } from "@supun156/hooks";
+import { useToggle } from "supunlakmal/hooks";
 
 function ToggleExample() {
   // Use the hook with default initial value (false)
@@ -68,7 +68,7 @@ The hook returns an array with the following elements:
 
 ```jsx
 import React from "react";
-import { useToggle } from "@supun156/hooks";
+import { useToggle } from "supunlakmal/hooks";
 
 function CollapsiblePanel({ title, children }) {
   const [isExpanded, toggle, expand, collapse] = useToggle(false);
@@ -90,7 +90,7 @@ function CollapsiblePanel({ title, children }) {
 
 ```jsx
 import React from "react";
-import { useToggle } from "@supun156/hooks";
+import { useToggle } from "supunlakmal/hooks";
 
 function PasswordInput() {
   const [passwordVisible, toggleVisibility, showPassword, hidePassword] =

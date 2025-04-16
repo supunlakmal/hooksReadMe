@@ -4,18 +4,18 @@ A React hook that provides an easy way to use `localStorage` for state persisten
 
 ## Installation
 
-This hook is included in the `@supun156/hooks` package:
+This hook is included in the `supunlakmal/hooks` package:
 
 ```bash
-npm install @supun156/hooks
+npm install supunlakmal/hooks
 # or
-yarn add @supun156/hooks
+yarn add supunlakmal/hooks
 ```
 
 ## Usage
 
 ```jsx
-import { useLocalStorage } from "@supun156/hooks";
+import { useLocalStorage } from "supunlakmal/hooks";
 
 function ProfileSettings() {
   // Similar to useState but persists in localStorage
@@ -89,7 +89,7 @@ Where `SetValue<T>` is a function with signature:
 
 ```jsx
 import React from "react";
-import { useLocalStorage } from "@supun156/hooks";
+import { useLocalStorage } from "supunlakmal/hooks";
 
 function DarkModeToggle() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", false);

@@ -4,18 +4,18 @@ A React hook that detects whether the current viewport is mobile-sized based on 
 
 ## Installation
 
-This hook is included in the `@supun156/hooks` package:
+This hook is included in the `supunlakmal/hooks` package:
 
 ```bash
-npm install @supun156/hooks
+npm install supunlakmal/hooks
 # or
-yarn add @supun156/hooks
+yarn add supunlakmal/hooks
 ```
 
 ## Usage
 
 ```jsx
-import { useIsMobile } from "@supun156/hooks";
+import { useIsMobile } from "supunlakmal/hooks";
 
 function MyComponent() {
   // Using the default breakpoint (768px)
@@ -57,7 +57,7 @@ Returns a boolean indicating whether the current viewport width is less than the
 
 ```jsx
 import React from "react";
-import { useIsMobile } from "@supun156/hooks";
+import { useIsMobile } from "supunlakmal/hooks";
 
 function ResponsiveLayout() {
   const isMobile = useIsMobile();
@@ -78,7 +78,7 @@ function ResponsiveLayout() {
 
 ```jsx
 import React from "react";
-import { useIsMobile } from "@supun156/hooks";
+import { useIsMobile } from "supunlakmal/hooks";
 
 function ComplexResponsiveUI() {
   const isSmallMobile = useIsMobile(480);

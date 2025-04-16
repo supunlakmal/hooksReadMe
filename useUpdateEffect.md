@@ -8,7 +8,7 @@ Use it exactly like `useEffect`, providing an effect callback and an optional de
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useUpdateEffect } from "@supun156/hooks"; // Adjust path
+import { useUpdateEffect } from "supunlakmal/hooks"; // Adjust path
 
 function UpdateEffectExample() {
   const [count, setCount] = useState(0);

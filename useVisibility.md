@@ -10,7 +10,7 @@ Attach a ref to the element you want to track. Pass the ref and optional Interse
 
 ```typescript
 import React, { useRef } from "react";
-import { useVisibility } from "@supun156/hooks"; // Adjust path
+import { useVisibility } from "supunlakmal/hooks"; // Adjust path
 
 const LazyComponent = ({ id }: { id: number }) => {
   console.log(`LazyComponent ${id} rendered/updated`);

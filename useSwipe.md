@@ -8,7 +8,7 @@ Attach a ref to the element you want to monitor for swipes. Provide callback fun
 
 ```typescript
 import React, { useRef, useState } from "react";
-import { useSwipe } from "@supun156/hooks"; // Adjust path
+import { useSwipe } from "supunlakmal/hooks"; // Adjust path
 
 function SwipeArea() {
   const swipeRef = useRef<HTMLDivElement>(null);

@@ -6,7 +6,7 @@ A declarative hook for setting intervals (`setInterval`) in React components. It
 
 ```typescript
 import React, { useState } from "react";
-import { useInterval } from "@supun156/hooks"; // Adjust path
+import { useInterval } from "supunlakmal/hooks"; // Adjust path
 
 function IntervalCounter() {
   const [count, setCount] = useState(0);

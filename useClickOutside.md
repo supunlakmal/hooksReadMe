@@ -7,7 +7,7 @@ This is commonly used for closing modals, dropdowns, or popovers when the user i
 
 ```typescript
 import React, { useState, useRef } from "react";
-import { useClickOutside } from "@supun156/hooks"; // Adjust the import path as needed
+import { useClickOutside } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function ModalComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +55,7 @@ export default ModalComponent;
 
 ```typescript
 import React, { useState, useRef } from "react";
-import { useClickOutside } from "@supun156/hooks";
+import { useClickOutside } from "supunlakmal/hooks";
 
 function DropdownComponent() {
   const [isVisible, setIsVisible] = useState(false);

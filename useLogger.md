@@ -8,7 +8,7 @@ Call the hook at the top level of your component, providing a name for the compo
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useLogger } from "@supun156/hooks"; // Adjust path
+import { useLogger } from "supunlakmal/hooks"; // Adjust path
 
 interface MyComponentProps {
   id: number;

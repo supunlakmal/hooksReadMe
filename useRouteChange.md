@@ -10,7 +10,7 @@ Executes a callback function whenever the browser's URL path changes. It detects
 
 ```typescript
 import React, { useState, useEffect } from "react";
-import { useRouteChange } from "@supun156/hooks"; // Adjust path
+import { useRouteChange } from "supunlakmal/hooks"; // Adjust path
 
 // Simple simulation of programmatic navigation
 const navigate = (path: string) => {

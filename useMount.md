@@ -8,7 +8,7 @@ Provide a function to the `useMount` hook. This function will be called once aft
 
 ```typescript
 import React from "react";
-import { useMount } from "@supun156/hooks"; // Adjust path
+import { useMount } from "supunlakmal/hooks"; // Adjust path
 
 const MyComponent = () => {
   useMount(() => {

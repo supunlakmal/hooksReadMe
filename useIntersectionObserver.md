@@ -8,7 +8,7 @@ Monitors the intersection of a target DOM element with an ancestor element or wi
 
 ```typescript
 import React, { useRef } from "react";
-import { useIntersectionObserver } from "@supun156/hooks"; // Adjust the import path as needed
+import { useIntersectionObserver } from "supunlakmal/hooks"; // Adjust the import path as needed
 
 function LazyImage({ src, alt }: { src: string; alt: string }) {
   const imgRef = useRef<HTMLImageElement>(null);
@@ -65,7 +65,7 @@ export default App;
 
 ```typescript
 import React, { useRef } from "react";
-import { useIntersectionObserver } from "@supun156/hooks"; // Adjust path
+import { useIntersectionObserver } from "supunlakmal/hooks"; // Adjust path
 
 function ScrollableAreaObserver() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);

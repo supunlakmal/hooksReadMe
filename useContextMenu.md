@@ -8,7 +8,7 @@ Attach a ref to the element that should trigger the custom menu. Use the `isOpen
 
 ```typescript
 import React, { useRef, CSSProperties } from "react";
-import { useContextMenu } from "@supun156/hooks"; // Adjust path
+import { useContextMenu } from "supunlakmal/hooks"; // Adjust path
 
 // Your custom context menu component
 const CustomMenu = ({

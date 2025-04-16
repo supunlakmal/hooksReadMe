@@ -8,7 +8,7 @@ Provide an optional initial `Set` or an iterable (like an array) to the hook. It
 
 ```typescript
 import React, { useState } from "react";
-import { useSet } from "@supun156/hooks"; // Adjust path
+import { useSet } from "supunlakmal/hooks"; // Adjust path
 
 function SetStateExample() {
   // Initialize with some default values

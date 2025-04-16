@@ -6,7 +6,7 @@ A declarative hook for setting timeouts (`setTimeout`) in React components. It h
 
 ```typescript
 import React, { useState } from "react";
-import { useTimeout } from "@supun156/hooks"; // Adjust path
+import { useTimeout } from "supunlakmal/hooks"; // Adjust path
 
 function TimeoutDemo() {
   const [message, setMessage] = useState("Waiting for timeout...");

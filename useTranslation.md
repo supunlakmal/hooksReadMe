@@ -10,7 +10,7 @@ Call the hook (optionally providing initial language and static resources) to ge
 
 ```typescript
 import React from "react";
-import { useTranslation } from "@supun156/hooks"; // Adjust path
+import { useTranslation } from "supunlakmal/hooks"; // Adjust path
 
 // Example: Define resources outside the component or pass them to the hook
 const resources = {

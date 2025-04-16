@@ -14,7 +14,7 @@ Call the hook to get the current orientation state.
 
 ```typescript
 import React from "react";
-import { useDeviceOrientation } from "@supun156/hooks"; // Adjust path
+import { useDeviceOrientation } from "supunlakmal/hooks"; // Adjust path
 
 function DeviceOrientationExample() {
   const { alpha, beta, gamma, absolute, isSupported } = useDeviceOrientation();

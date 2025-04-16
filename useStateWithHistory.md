@@ -8,7 +8,7 @@ Provide an initial state value and optionally a maximum history capacity. The ho
 
 ```typescript
 import React, { useState } from "react";
-import { useStateWithHistory } from "@supun156/hooks"; // Adjust path
+import { useStateWithHistory } from "supunlakmal/hooks"; // Adjust path
 
 function HistoryStateExample() {
   const {

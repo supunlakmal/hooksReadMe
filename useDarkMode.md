@@ -11,7 +11,7 @@ Manages application theme preference (dark/light mode). It detects the user's op
 ```typescript
 // App.tsx or similar root component
 import React from "react";
-import { useDarkMode } from "@supun156/hooks"; // Adjust path
+import { useDarkMode } from "supunlakmal/hooks"; // Adjust path
 import "./styles.css"; // Import your global styles
 
 function App() {

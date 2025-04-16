@@ -8,7 +8,7 @@ A robust hook for declaratively adding event listeners to the `window`, `documen
 
 ```typescript
 import React, { useState } from "react";
-import { useEventListener } from "@supun156/hooks"; // Adjust path
+import { useEventListener } from "supunlakmal/hooks"; // Adjust path
 
 function MousePositionLogger() {
   const [coords, setCoords] = useState({ x: 0, y: 0 });
@@ -38,7 +38,7 @@ export default MousePositionLogger;
 
 ```typescript
 import React, { useRef, useState } from "react";
-import { useEventListener } from "@supun156/hooks"; // Adjust path
+import { useEventListener } from "supunlakmal/hooks"; // Adjust path
 
 function ClickCounter() {
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -67,7 +67,7 @@ export default ClickCounter;
 
 ```typescript
 import React, { useState } from "react";
-import { useEventListener } from "@supun156/hooks"; // Adjust path
+import { useEventListener } from "supunlakmal/hooks"; // Adjust path
 
 function KeydownLogger() {
   const [lastKeyPressed, setLastKeyPressed] = useState<string | null>(null);

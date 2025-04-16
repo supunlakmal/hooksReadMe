@@ -8,7 +8,7 @@ Provide a callback function that performs the animation updates and a duration. 
 
 ```typescript
 import React, { useState, useCallback, CSSProperties } from "react";
-import { useAnimation } from "@supun156/hooks"; // Adjust path
+import { useAnimation } from "supunlakmal/hooks"; // Adjust path
 
 function AnimationExample() {
   const [position, setPosition] = useState(0); // State to animate (e.g., horizontal position)

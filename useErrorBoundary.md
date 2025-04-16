@@ -24,7 +24,7 @@ yarn add react-error-boundary
 ```typescript
 import React, { useState } from "react";
 import { ErrorBoundary, FallbackProps } from "react-error-boundary";
-import { useErrorBoundary } from "@supun156/hooks"; // Adjust path
+import { useErrorBoundary } from "supunlakmal/hooks"; // Adjust path
 
 // --- Component that might throw an error ---
 function BuggyComponent({ shouldThrow }: { shouldThrow: boolean }) {

@@ -6,7 +6,7 @@ Monitors changes to the dimensions (content rect and border box) of a target DOM
 
 ```typescript
 import React, { useRef, useState } from "react";
-import { useResizeObserver } from "@supun156/hooks"; // Adjust path
+import { useResizeObserver } from "supunlakmal/hooks"; // Adjust path
 
 function ResizableTextArea() {
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
