@@ -28,8 +28,6 @@ npm install @supunlakmal/hooks
 yarn add @supunlakmal/hooks
 ```
 
-_(Note: Some specific hooks like `useExportToExcel` (currently commented out) might require additional peer dependencies like `xlsx`. Check the individual hook documentation for details.)_
-
 ## Quick Start Example
 
 ```jsx
@@ -111,7 +109,6 @@ Explore the documentation for each hook to see detailed API information and usag
 | [**`useElementSize`**](https://github.com/supunlakmal/hooksReadMe/blob/main/useElementSize.md)                   | Efficiently tracks the dimensions (width/height) of a DOM element using `ResizeObserver`.                             |
 | [**`useErrorBoundary`**](https://github.com/supunlakmal/hooksReadMe/blob/main/useErrorBoundary.md)               | Provides state management and control functions for React Error Boundaries.                                           |
 | [**`useEventListener`**](https://github.com/supunlakmal/hooksReadMe/blob/main/useEventListener.md)               | Robustly attaches event listeners to `window`, `document`, or elements, handling cleanup.                             |
-| _[`useExportToExcel`](https://github.com/supunlakmal/hooksReadMe/blob/main/useExportToExcel.md)_                 | _(Commented out) Exports data to Excel (.xlsx) files (requires `xlsx` library)._                                      |
 | [**`useFetch`**](https://github.com/supunlakmal/hooksReadMe/blob/main/useFetch.md)                               | A simple hook for fetching data, managing loading and error states.                                                   |
 | [**`useFiniteStateMachine`**](https://github.com/supunlakmal/hooksReadMe/blob/main/useFiniteStateMachine.md)     | Manages complex component state using an explicit state machine definition.                                           |
 | [**`useFocusTrap`**](https://github.com/supunlakmal/hooksReadMe/blob/main/useFocusTrap.md)                       | Traps keyboard focus within a specified container element when active (for modals, dialogs).                          |
